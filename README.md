@@ -13,6 +13,7 @@ pulumi login azblob://<container-name>?storage_account=<storage-account-name>
 ```bash
 pulumi config set dnsResourceGroup <resource-group>
 pulumi config set dnsZoneName <dns-zone-name>
+pulumi config set azure-native:location uksouth
 ```
 
 ## Run it
